@@ -1,0 +1,65 @@
+<!--written by mohamed abdelnasser-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!--font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--icons link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Calculator | Task 2</title>
+</head>
+<body>
+    <div class="title">
+        <h3>Task 2</h3>
+    </div>
+    <div class="calc">
+        <div class="display">
+            <input id="display" type="text" readonly>
+        </div>
+        <div class="btns">
+            <button onclick="getValue('+')" class="operator">+</button>
+            <button onclick="getValue('7')">7</button>
+            <button onclick="getValue('8')">8</button>
+            <button onclick="getValue('9')">9</button>
+
+            <button onclick="getValue('-')" class="operator">-</button>
+            <button onclick="getValue('4')">4</button>
+            <button onclick="getValue('5')">5</button>
+            <button onclick="getValue('6')">6</button>
+
+            <button onclick="getValue('/')" class="operator">/</button>
+            <button onclick="getValue('1')">1</button>
+            <button onclick="getValue('2')">2</button>
+            <button onclick="getValue('3')">3</button>
+
+            <button onclick="getValue('*')" class="operator">*</button>
+            <button onclick="getValue('.')">.</button>
+            <button onclick="getValue('0')">0</button>
+            <button onclick="showResult()">=</button>
+
+            <button onclick="clearDisplay()" class="operator">c</button>
+        </div>
+    </div>
+    <div class="info">
+        <p>Created With Love by : Mohamed Abdelnasser</p>
+    </div>
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100010706563005&locale=ar_AR" target="_blank">
+            <i class="bx bxl-facebook-square"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/abonasser/" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+        </a>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
